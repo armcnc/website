@@ -13,7 +13,6 @@
 // limitations under the License.
 
 // Import modules
-import { Button } from "@/components/ui/button";
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 
@@ -24,8 +23,6 @@ import "@/assets/styles/tailwind.css";
 // Render the React application
 createRoot(document.getElementById("root")!).render(
     <StrictMode>
-        <div>
-            <Button>Click me</Button>
-        </div>
+        <div></div>
     </StrictMode>,
 );
