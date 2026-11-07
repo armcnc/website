@@ -22,7 +22,7 @@ import { defineConfig } from "vite";
 export default defineConfig({
     plugins: [react(), tailwindcss()],
     build: {
-        outDir: "./doc",
+        outDir: "./docs",
         sourcemap: false,
     },
     resolve: {
