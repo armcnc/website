@@ -23,6 +23,9 @@ import "@/assets/styles/tailwind.css";
 // Render the React application
 createRoot(document.getElementById("root")!).render(
     <StrictMode>
-        <div></div>
+        <div className="w-full p-5 space-y-2">
+            <p>感谢大家对ARMCNC开源数据系统的支持，全新官网即将开放，敬请期待。</p>
+            <p className="text-sm text-muted-foreground">连云港东福智造科技有限公司</p>
+        </div>
     </StrictMode>,
 );
